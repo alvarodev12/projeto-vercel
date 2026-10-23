@@ -1,2 +1,5 @@
-# projeto-vercel
+# Padoca do Dev
 
+<p>
+Este projeto tem como foco aplicar conceitos de estruturação de projeto e deploy no vercel
+<p>
