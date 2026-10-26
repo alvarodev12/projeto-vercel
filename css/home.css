@@ -1,7 +1,228 @@
 @import url(layout.css);
 
+
 .hero {
-    background-color: var(--cor-alternativa);
-    
-    height: 90vh;
+  background-color: var(--cor-alternativa);
+
+  height: 90vh;
 }
+
+.cabecalho {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #585872;
+  z-index: 100;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 50px;
+}
+
+.logo a {
+  font-family: "Pacifico", cursive;
+  font-size: 26px;
+  color: var(--cor-alternativa);
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.link-menu {
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.link-menu:hover {
+    color: var(--cor-principal);
+}
+
+/* Etpa 5 Hero */
+
+.hero {s
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px 50px 60px 50px;
+    background-color: var(--cor-alternativa);
+}
+
+.hero-texto {
+    width: 50%;
+}
+
+.hero-tag {
+    display: inline-block;
+    background-color: white;
+    color: var(--vinho);
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.titulo-hero {
+    font-family: 'Pacifico', cursive;
+    font-size: 56px;
+    font-weight: normal;
+    color: var(--vinho);
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+/* .subtitulo-hero {
+    font-size: 18px;
+    line-height: 1.6px;
+    margin-bottom: 35px;
+} */
+
+.botao {
+    display: inline-block;
+    padding: 14px 30px;
+    background-color: var(--vinho);
+    color: white;
+    border: 2px solid var(--vinho);
+    border-radius: 30px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: #7D3537;
+    border-color: #7D3537;
+    margin-left: 10px;
+}
+
+.botao-secundario:hover {
+    background-color: var(--vinho);
+    border-color: var(--vinho);
+    color: white;
+}
+
+/* Etpa 5.4 Hero */
+
+.hero-imagem {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.circulo {
+    width: 380px;
+    height: 380px;
+    background-color: var(--cor-principal);
+    border: 10px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 160px;
+    box-shadow: 0px 10px 30px rgba(88, 88, 114, 0.3);
+}
+
+.selo {
+    position: absolute;
+    bottom: 20px;
+    right: 60px;
+    width: 110px;
+    height: 110px;
+    background-color: var(#95D5EE);
+    color: #585872;
+    border: 5px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    transition: rotate(-12deg);
+}
+
+/* Etpa 6 */
+
+.historia {
+    padding: 100px 50px;
+    background-color: white;
+}
+
+.titulo-secao {
+    font-family: 'Pacifico', cursive;
+    font-size: 42px;
+    font-weight: normal;
+    color: var(--vinho);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.historia-conteudo {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.historia-texto {
+    width: 50%;
+}
+
+.historia-texto p {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* Etpa 6.3  cards*/
+
+.historia-cards {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    width: 45%;
+    background-color: var(--rosa);
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card-hover {
+    transform: scale(1.05);
+}
+
+.card-numero {
+    display: block;
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--vinho);
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 15px;
+}
+
+#card-azul {
+    background-color: #95D5EE;
+}
+
+#card-amarelo {
+    background-color: #FFE691;
+}
+
+/* Etpa 7.1  como chegar*/

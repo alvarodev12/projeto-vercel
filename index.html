@@ -4,13 +4,16 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/home.css">
-    <title>Padoca do Dev</title>
+    <title>Padoka do Dev</title>
 </head>
 
 <body>
-    <header class="header" id="header">
-        <img src="" alt="Logo da Padoca" /s>
+    <!-- <header class="header" id="header">
+        <img src="" alt="Logo da Padoca" />
 
         <nav class="navigation">
             <a href="">Inicio</a>
@@ -19,14 +22,92 @@
             <a href="">Cardápio</a>
         </nav>
 
+    </header> -->
+
+    <header class="cabecalho" id="topo">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="hero">Padoka do Dev</a>
+            </div>
+            <ul class="menu">
+                <li><a href="hero" class="link-menu">Inicio</a></li>
+                <li><a href="historia" class="link-menu">História</a></li>
+                <li><a href="como-chegar" class="link-menu">Como chegar</a></li>
+                <li><a href="contato" class="link-menu">Contato</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main class="content" id="content">
-        <section class="hero" id="hero">
+        <!-- <section class="hero" id="hero">
             <img src="assets/img/heroImage.png" alt="Pão quetinho">
             <svg><use href="assets/icons/seta.svg"></use></svg>
+        </section> -->
+
+        <section id="hero" class="hero">
+            <div class="hero-texto">
+                <div class="hero-imagem">
+                    <div class="circulo"></div>
+                    <div class="selo">Desde <br>2011</div>
+                </div>
+                <p class="hero-tag">Padaria artesanal de Mitakihara</p>
+                <h1 class="titulo-hero">Faça um contrato com o pão quentinho</h1>
+                <p class="subtitulo-hero">
+                    Aqui ninguém precisa virar garota mágica pra ter um desejo realizado.
+                    Experimente o Croissant Rosa da Padoka, o Pão de Queijo da Charlotte
+                    e a Torta Tira Finale da Mami, sempre com um chá bem quentinho.
+                </p>
+                <div class="hero-botoes">
+                    <a href="#contato" class="botao"> Fazer meu pedido</a>
+                    <a href="#historia" class="botao botao-secundario">Conhceça a gente</a>
+                </div>
+            </div>
         </section>
+
+        <section id="historia" class="historia">
+            <h2 class="titulo-secao">Nossa História</h2>
+            <div class="historia-conteudo">
+                <div class="historia-texto">
+                    <p>
+                        A Padoka Do Dev nasceu em 2011, na cozinha do Seu Tomohisa, em Mitakihara.
+                        Enquanto a família saía para trabalhar e estudar, ele cuidava do horta e 
+                        assava pães para os vizinhos, que logo começaram a fazer fila no portão toda manhã.
+                    </p>
+                    <p>
+                        Hoje a equipe cresceu. A Mami cuida das tortas e do chá da tarde, a Kyoko nunca deixa
+                        ninguém sair sem provar o Taiyaki de Maça do Amor e a Sayaka recheia o famoso Sonho
+                        Azul Oceano. Já a Homura essa o Pão Integral Loop Temporal quantas vezes for preciso
+                        até ele sair perfeito.
+                    </p>
+                    <p>
+                        Nossa única regra: nenhum produto vem com contrato esondido.
+                        Se um gatinho branco aparecer no balcão oferecendo desejos, pode ignorar.
+                    </p>
+                </div>
+            </div>
+
+            <div class="historia-cards">
+                <div class="card">
+                    <span class="card-numero">2011</span>
+                    <p>Primeira fornada na cozinha do Seu Tomohisa</p>
+                </div>
+                <div class="card" id="card-azul">
+                    <span class="card-numero">5</span>
+                    <p>Garotas mágicas trabalhando no forno e no balcão</p>
+                </div>
+                <div class="card" id="card-amarelo">
+                    <span class="card-numero">40+</span>
+                    <p>Receitas, do Brigadeiro Grief Seed á Rosquinha Soul Gem</p>
+                </div>
+                <div class="card">
+                    <span class="card-numero">5</span>
+                    <p>Loops temporais da Homura até a fornada ficar perfeita</p>
+                </div>
+            </div>
+        </section>
+
     </main>
+
 </body>
 
 </html>

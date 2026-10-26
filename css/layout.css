@@ -1,23 +1,35 @@
 @import url(variables.css);
 
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Pacifico", cursive;
+  font-family: "Poppins", sans-serif;
 }
 
-.header {
-    background-color: var(--cor-principal);
-    color: var(--cor-texto);
+html {
+  scroll-behavior: smooth;
+}
 
-    height: var(--altura-header);
+body {
+  font-size: "Poppins", sans-serif;
+  color: #585872;
+  background-color: #fffaf5;
+}
 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+/* .header {
+  background-color: var(--cor-principal);
+  color: var(--cor-texto);
+
+  height: var(--altura-header);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .navigation a {
-    text-decoration: none;
-    color: var(--cor-texto);
-}
+  text-decoration: none;
+  color: var(--cor-texto);
+} */
